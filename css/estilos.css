@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    width: 690px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(185, 185, 185);
+}
+.izquierdo{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 390px;
+    height: 200px;
+    background-color: gainsboro;
+    display: row;
+    float: left;
+}
+.derecho{
+    margin-top: 10px;
+    margin-left: 45px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    background-color: red;
+    color: white;
+    float: left;
+}
+.derecho2{
+    margin-left: 45px;
+    width: 200px;
+    height: 269px;
+    background-color: rgb(236, 236, 236);
+    float: left;
+    
+}
+.cajita{
+    margin-left: 5px;
+    width: 55px;
+    height: 15px;
+    font-size: 7px;
+}
+.cajita2{
+    margin-left: 5px;
+    width: 60px;
+    height: 20px;
+    font-size: 7px;
+}
+.text1{
+    background-color: rgb(76, 137, 207);
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 80px;
+    height: 25px;
+    font-size: 8px;
+}
+.text2{
+    background-color:red ;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80px;
+    height: 25px;
+    font-size: 8px;
+}
+.caja{
+    margin-top: 30px;
+   
+    
+}
+.letra{
+    margin-left: 20px ;
+}
+.letras1{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+.letras2{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.letras3{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.box1{
+    
+    width: 36px;
+}
+.letras4{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.box2{
+    width: 56px;
+}
+.letras5{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.box3{
+    width: 125px;
+}
+.letras6{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.box4{
+    width: 60px;
+}
+.descripcion{
+    margin-top: 15px;
+    margin-left: 10px;
+  
+}
+.box5{
+    font-size: 9px;
+}
+

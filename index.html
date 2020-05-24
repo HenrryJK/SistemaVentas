@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SistemaVentas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+  <header>
+    <div class="letra"> PRODUCTO:
+      <input type="text" name="producto" class="caja" placeholder="Buscar por codigo de barra o nombre del producto">
+    </div>
+    <section class="izquierdo">
+      <button class="cajita" disabled>ITEM</button>
+      <button class="cajita" disabled>CANT.</button>
+      <button class="cajita2"disabled>PRODUCTO</button>
+      <button class="cajita"disabled>MARCA</button>
+      <button class="cajita"disabled>PRECIO</button>
+      <button class="cajita"disabled>IMPORTE</button>
+
+
+      <button class="cajita" >1</button>
+      <button class="cajita" >1</button>
+      <button class="cajita2"disabled>Leche Evaporada</button>
+      <button class="cajita" disabled>GLORIA</button>
+      <button class="cajita">15.30</button>
+      <button class="cajita" disabled>15.30</button>
+
+      <button class="cajita">2</button>
+      <button class="cajita" >1</button>
+      <button class="cajita2"disabled>Leche Chocolatada</button>
+      <button class="cajita" disabled>LAIVE</button>
+      <button class="cajita">3.10</button>
+      <button class="cajita" disabled>3.10</button>
+
+      <button class="cajita" >3</button>
+      <button class="cajita" >1</button>
+      <button class="cajita2"disabled>Leche Fresca</button>
+      <button class="cajita" disabled>GLORIA</button>
+      <button class="cajita">3.20</button>
+      <button class="cajita" disabled>3.20</button>
+      
+      <button class="text1" ><i class="fa fa-cart-plus" aria-hidden="true"></i>Guardar Compra</button>
+      <button class="text2" ><i class="fa fa-trash" aria-hidden="true"></i>VACIAR CARRITO</button>
+    </section>
+    <section class="derecho">S.21.60</section>
+    <section class="derecho2">
+
+      <div class="letras1"> DOCUMENTO:
+        <select name = "Documento" id="Documento" class="documento">
+          <option value="a" >FACTURA</option>
+      </select> 
+      </div>
+
+      <div class="letras2"> TIPO DE PAGO:
+        <select name = "Tipo_pago" id="Tipo_pago" class="Tipo_pago">
+          <option value="a" >CONTADO</option>
+      </select> 
+      </div>
+      
+      <div class="letras3"> SERIE
+        <input type ="text" name="nombre" class="box1" placeholder="001" required>
+     
+      </div>
+      
+      <div class="letras4"> N° DE VENTA
+        <input type ="text" name="nombre" class="box2" placeholder="000001" required>
+      
+      </div>
+    
+      <div class="letras5"> Fecha de Compra
+        <input type ="date" name="nombre" class="box3" placeholder="" required>
+     
+      </div>
+
+      <div class="letras6"> PROVEEDOR
+        <input type ="text" name="nombre" class="box4" placeholder="000001" required>
+    
+      </div>
+
+      <div class="descripcion"> -----------------------------
+        <div class="box5">
+          <div id="l1">SUB TOTAL: ----------   S/.1.35</div>
+          <div id="l3">I.G.V(18%): --------- S/.3.29</div>
+          <div id="l5">TOTAL:     --------- S/.21.60</div>
+        </div>
+      </div>
+    </section>
+  </header>
+</body>
+</html>
